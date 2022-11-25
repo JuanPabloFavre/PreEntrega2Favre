@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -130,13 +130,17 @@ input {
 
 .articulosVenta {
 
-    background-color: white;
-    border: solid black 2px;
+    border: solid darkslategray 2px;
+    background-color:darkslategrey;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
+    width: 350px;
+
+
 
 
 }
@@ -174,6 +178,7 @@ input {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin: 20px 25px 15px 25px;
+    justify-items: center;
 }
 
 .tituloPaginaInterna {
@@ -622,14 +627,14 @@ input {
 
     }
 
-    .ordenInfoContacto h3{
+    .ordenInfoContacto h3 {
         font-size: 2.5rem;
         text-align: center;
 
     }
 
-    .ordenInfoContacto p{
-font-size: 1.2rem;
+    .ordenInfoContacto p {
+        font-size: 1.2rem;
 
     }
 
