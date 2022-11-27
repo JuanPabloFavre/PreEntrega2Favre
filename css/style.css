@@ -107,6 +107,24 @@ input {
 
 }
 
+.videoIndex {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-left: 5%;
+margin-right: 5%;
+   
+}
+
+.videoIndex video {
+
+    width: 100%;
+   margin-bottom: 5%;
+
+   }
+
 .articulosIndex a {
     padding-bottom: 15px;
 }
@@ -547,6 +565,12 @@ input {
 
     }
 
+    .articulosIndex video{
+
+        height: 450px;
+        width: 450px;
+    }
+
 
 
     .textoIndex span {
@@ -667,6 +691,9 @@ input {
 
     }
 
+  
+
+    
 
 
 
