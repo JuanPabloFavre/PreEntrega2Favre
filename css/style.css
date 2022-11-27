@@ -44,6 +44,12 @@ nav {
 
 }
 
+body{
+background-image: url(../fondos/degradado.jpg);
+background-size:cover;
+
+}
+
 nav img {
 
     width: 100px;
@@ -129,21 +135,23 @@ input {
 
 .articulosVenta {
 
-    border: solid darkslategray 2px;
-    background-color: darkslategrey;
-    color: white;
+    border: solid darkslategray 4px;
+    border-radius: 10px;
+       color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 15px;
     width: 320px;
     margin-right: 5%;
+    background-color: white;
 
 }
 
 .articulosVenta img {
     width: 100%;
+  
  
 }
 
