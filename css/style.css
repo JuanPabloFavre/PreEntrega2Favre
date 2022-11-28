@@ -275,6 +275,7 @@ input {
 .logoFooter img {
     height: 35%;
     width: 35%;
+    margin-left: 5%;
 
 }
 
@@ -284,6 +285,7 @@ input {
     text-decoration: none;
 
 }
+
 
 .infoEmpresa {
 
