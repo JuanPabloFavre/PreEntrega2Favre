@@ -37,7 +37,7 @@ nav {
     text-align: center;
     justify-content: center;
     font-size: 1.8rem;
-    background-image: url(../fondos/cielo.jpg);
+    background-image: url(../fondos/celeste.jpg);
     border-top: white solid 10px;
     width: 100%;
 
@@ -76,9 +76,12 @@ input {
 }
 
 
+
+
 .listaHeader a {
 
     color: white;
+   
     
 }
 
@@ -560,6 +563,7 @@ input {
 
     .footerUl a:hover {
         color: black;
+             
 
     }
 
@@ -668,11 +672,6 @@ input {
 /* Configuracion para pantallas mayores de 1200px */
 
 @media (min-width:1200px) {
-
-    .listaHeader {
-        gap: 70px;
-    }
-
 
 
     .articulosIndex img {
@@ -811,6 +810,10 @@ input {
         font-size: 2rem;
         flex-direction: row;
 
+    }
+
+    .formContacto input{
+        font-size: 1rem;
     }
 
 
