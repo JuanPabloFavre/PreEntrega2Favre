@@ -84,18 +84,12 @@ aside{
     }
     
 
-
-
-
 .listaHeader a {
 
     color: white;
    
     
 }
-
-
-
 
 
 .articulosIndex {
@@ -106,6 +100,7 @@ aside{
     gap: 6px;
     margin-left: 3%;
     margin-right: 3%;
+    background-image: url(../fondos/celeste.jpg);
 
 }
 
@@ -113,7 +108,9 @@ aside{
 
     height: 100%;
     width: 100%;
-    border: solid 2px green;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-bottom: 10px;
     background-image: url(../fondos/blanco.jpg);
 
 }
@@ -138,35 +135,10 @@ aside{
     margin-right: 15%;
     margin-left: 15%;
     margin-bottom: 15%;
-    background-color: gold;
+    background-color: skyblue;
 
 }
 
-.videoPublicidad {
-    padding-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-
-
-}
-
-.videoPublicidad video {
-
-    width: 100%;
-    margin-bottom: 5%;
-
-}
-
-.videoPublicidad span {
-    padding: 15px;
-    font-size: 1rem;
-
-
-}
 
 .textoPublicidad {
     text-align: center;
@@ -499,12 +471,12 @@ aside{
 
     .articulosIndex {
         margin-top: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
         display: grid;
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: auto;
         text-align: center;
-        border: 5px solid seagreen;
+        border: 7px solid white;
         border-radius: 10px;
 
 
@@ -560,7 +532,7 @@ aside{
     /* Transformaciones  */
 
     .consultaArticulo:hover {
-        background-color: darkgreen;
+        background-color: skyblue;
         color: antiquewhite;
     }
 
@@ -582,7 +554,7 @@ aside{
     }
 
     .articulosIndex img:hover {
-        border: solid 2px black;
+        border: solid 2px skyblue;
 
     }
 
