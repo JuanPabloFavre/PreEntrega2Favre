@@ -75,20 +75,20 @@ input {
     height: 25px;
 }
 
-aside{
+aside {
 
     width: 100%;
     margin-top: 2%;
     margin-bottom: 1%;
-    
-    }
-    
+
+}
+
 
 .listaHeader a {
 
     color: white;
-   
-    
+
+
 }
 
 
@@ -100,7 +100,7 @@ aside{
     gap: 6px;
     margin-left: 3%;
     margin-right: 3%;
-  
+
 
 }
 
@@ -241,7 +241,7 @@ aside{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 
 }
 
@@ -249,7 +249,7 @@ aside{
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 
 }
 
@@ -378,13 +378,14 @@ aside{
 .mapaLocal {
     display: flex;
     flex-direction: column;
-    border: solid 1px black;
+    border-top: 2px black solid;
     margin: 15px 15px 15px 15px;
+
 }
 
 .mapaLocal span {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
 
 }
@@ -549,7 +550,7 @@ aside{
 
     .footerUl a:hover {
         color: black;
-             
+
 
     }
 
@@ -558,10 +559,10 @@ aside{
 
     }
 
-    .formContacto ul li input:hover{
-        background-color:darkslategrey;
+    .formContacto ul li input:hover {
+        background-color: darkslategrey;
         color: aliceblue;
-            }
+    }
 
     /* Fin Transformaciones */
 
@@ -635,7 +636,7 @@ aside{
         flex-direction: row;
     }
 
-   
+
 
     .mapaLocal {
 
@@ -643,6 +644,8 @@ aside{
         align-items: center;
 
     }
+
+    
 
     .mapaLocal iframe {
         display: flex;
@@ -805,11 +808,16 @@ aside{
 
     }
 
-    .formContacto input{
+    .formContacto input {
         font-size: 1rem;
     }
 
+    .mapaLocal iframe {
+        width: 70%;
 
-  
+    }
+
+
+
 
 }
