@@ -75,6 +75,15 @@ input {
     height: 25px;
 }
 
+aside{
+
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    
+    }
+    
+
 
 
 
@@ -439,6 +448,9 @@ input {
 
 
 
+
+
+
 /* Configuracion para pantallas mayores de 768px */
 
 
@@ -574,6 +586,11 @@ input {
 
     }
 
+    .formContacto ul li input:hover{
+        background-color:darkslategrey;
+        color: aliceblue;
+            }
+
     /* Fin Transformaciones */
 
     .articulosVenta img {
@@ -645,6 +662,8 @@ input {
         font-size: 1rem;
         flex-direction: row;
     }
+
+   
 
     .mapaLocal {
 
@@ -819,10 +838,6 @@ input {
     }
 
 
-
-
-
-
-
+  
 
 }
