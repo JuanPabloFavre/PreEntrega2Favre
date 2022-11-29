@@ -100,7 +100,7 @@ aside{
     gap: 6px;
     margin-left: 3%;
     margin-right: 3%;
-    background-image: url(../fondos/celeste.jpg);
+  
 
 }
 
@@ -476,7 +476,7 @@ aside{
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: auto;
         text-align: center;
-        border: 7px solid white;
+        border: 7px solid black;
         border-radius: 10px;
 
 
