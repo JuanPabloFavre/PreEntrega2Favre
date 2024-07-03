@@ -9,7 +9,7 @@ const ProductCard = ({ title, price, img, stock, id }) => {
         <div >
 
 
-            <div className="card p-5 m-3 border border-5 " style={{ width: "25rem" }}>
+            <div className="card p-5 m-3 border border-5 " style={{ width: "24rem" }}>
                 <img className="card-img-top " src={img} alt="..."></img>
                 <div className="card-body text-center">
                     <h5 className="card-title fs-3 text ">{title}</h5>

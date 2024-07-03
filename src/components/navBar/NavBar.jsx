@@ -1,17 +1,14 @@
 import CartWidget from '../cartWidget/CartWidget'
-import Logo from '../logo/Marca'
+import Logo from '../logo/Logo'
 import './NavBar.css'
 import { Link } from 'react-router-dom'
 import Cart from '../../pages/cart/Cart'
-
-
-
 
 const NavBar = () => {
     return (
         <>
 
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
                 <div className="container-fluid navbar border-bottom border-body p-3" data-bs-theme="dark">
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,16 +18,9 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
                         <Link to="/"><Logo /></Link>
-
-                        <ul className="navbar-nav me-auto mb-20 m-10 mb-lg-0 ">
+                        <ul className="navbar-nav me-auto mb-20 m-10 mb-lg-0">
                             <li className="nav-item">
-                                <Link to="/" className="nav-link active" aria-current="page" >Todos  - </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" >Novedades  - </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" >Ofertas  - </Link>
+                                <Link to="/" className="nav-link active" aria-current="page" > Todos </Link>
                             </li>
 
                             <li className="nav-item dropdown">

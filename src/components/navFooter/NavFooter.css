@@ -23,3 +23,11 @@ ol,
 ul {
   list-style: none;
 }
+
+li {
+  color: white;
+}
+
+li:hover {
+  color: aqua;
+}

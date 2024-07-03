@@ -17,3 +17,7 @@ input {
 body {
   background-color: rgb(29, 77, 61);
 }
+
+li:hover {
+  color: aqua;
+}
